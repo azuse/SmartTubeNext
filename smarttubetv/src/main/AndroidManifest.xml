@@ -57,7 +57,7 @@
         android:logo="@mipmap/app_logo"
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
-        android:theme="@style/App.Theme.Leanback.Browse"
+        android:theme="@style/App.Theme.DarkGrey.Browse"
         tools:node="merge"
         tools:replace="android:theme,android:allowBackup"
         tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity,UnusedAttribute">
@@ -142,7 +142,7 @@
             android:screenOrientation="landscape"
             android:showWhenLocked="true"
             android:turnScreenOn="true"
-            android:theme="@style/App.Theme.Leanback.Player"/>
+            android:theme="@style/App.Theme.DarkGrey.Player"/>
 
         <activity
             android:name="com.liskovsoft.smartyoutubetv2.tv.ui.search.regular.SearchActivity"
@@ -160,19 +160,19 @@
                   android:launchMode="singleInstance"
                   android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|layoutDirection"
                   android:screenOrientation="landscape"
-                  android:theme="@style/Theme.Leanback.Onboarding"/>
+                  android:theme="@style/Theme.DarkGrey.Onboarding"/>
 
         <activity android:name="com.liskovsoft.smartyoutubetv2.tv.ui.signin.SignInActivity"
                   android:launchMode="singleInstance"
                   android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|layoutDirection"
                   android:screenOrientation="landscape"
-                  android:theme="@style/App.Theme.Leanback.GuidedStep"/>
+                  android:theme="@style/App.Theme.DarkGrey.GuidedStep"/>
 
         <activity android:name="com.liskovsoft.smartyoutubetv2.tv.ui.adddevice.AddDeviceActivity"
                   android:launchMode="singleInstance"
                   android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|layoutDirection"
                   android:screenOrientation="landscape"
-                  android:theme="@style/App.Theme.Leanback.GuidedStep"/>
+                  android:theme="@style/App.Theme.DarkGrey.GuidedStep"/>
 
         <!-- noHistory is essential for dialogs. Because otherwise you'll see previous dialog content when opening. -->
         <activity android:name="com.liskovsoft.smartyoutubetv2.tv.ui.dialogs.AppDialogActivity"
@@ -180,7 +180,7 @@
                   android:launchMode="singleInstance"
                   android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|layoutDirection"
                   android:screenOrientation="landscape"
-                  android:theme="@style/App.Theme.Leanback.Preferences"/>
+                  android:theme="@style/App.Theme.DarkGrey.Preferences"/>
 
         <activity
             android:name="com.liskovsoft.smartyoutubetv2.tv.ui.webbrowser.WebBrowserActivity"
@@ -291,7 +291,7 @@
             android:name="com.liskovsoft.smartyoutubetv2.tv.ui.details.VideoDetailsActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.Leanback.Details">
+            android:theme="@style/Theme.DarkGrey.Details">
 
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -312,11 +312,11 @@
             android:exported="true"
             android:parentActivityName="com.liskovsoft.smartyoutubetv2.tv.ui.browse.BrowseActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.Leanback.VerticalGrid" />
+            android:theme="@style/Theme.DarkGrey.VerticalGrid" />
         <activity
             android:name="com.liskovsoft.smartyoutubetv2.tv.old.ui.GuidedStepActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.Example.Leanback.GuidedStep" />
+            android:theme="@style/Theme.Example.DarkGrey.GuidedStep" />
         -->
 
         <!-- Provides search suggestions for keywords against video metadata. -->
@@ -334,13 +334,13 @@
         <activity android:name="com.liskovsoft.smartyoutubetv2.tv.old.ui.SettingsActivity"
             android:exported="true"
             android:screenOrientation="landscape"
-            android:theme="@style/App.Theme.Leanback.Preferences"
+            android:theme="@style/App.Theme.DarkGrey.Preferences"
             />
 
         <activity
             android:name="com.liskovsoft.smartyoutubetv2.tv.old.ui.AuthenticationActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.Example.Leanback.GuidedStep" />
+            android:theme="@style/Theme.Example.DarkGrey.GuidedStep" />
         -->
 
         <!-- End Old activities -->
